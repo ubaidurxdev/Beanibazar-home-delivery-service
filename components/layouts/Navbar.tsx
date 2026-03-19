@@ -4,7 +4,13 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetTitle,
+} from "@/components/ui/sheet";
+import Image from "next/image";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -22,7 +28,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="#home" className="text-xl font-bold tracking-tight">
-          🚚 FastDelivery
+          <Image src={"/bg-remove.png"} width={48} height={48} alt="Logo" />
         </Link>
 
         {/* Desktop Nav */}
@@ -31,7 +37,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-gray-700 hover:text-black transition"
+              className="text-base font-medium text-gray-700 hover:text-black transition"
             >
               {link.name}
             </Link>
@@ -61,7 +67,17 @@ export default function Navbar() {
             </SheetTrigger>
 
             <SheetContent side="right" className="p-6">
-              <div className="flex flex-col gap-6 mt-6">
+              {/* ✅ Required for accessibility */}
+              <SheetTitle className="text-lg font-semibold mb-4">
+                <Image
+                  src={"/bg-remove.png"}
+                  width={48}
+                  height={48}
+                  alt="Logo"
+                />
+              </SheetTitle>
+
+              <div className="flex flex-col gap-6 mt-4">
                 {navLinks.map((link) => (
                   <Link
                     key={link.name}
