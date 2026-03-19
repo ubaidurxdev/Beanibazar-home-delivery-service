@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${hankenGrotesk.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>

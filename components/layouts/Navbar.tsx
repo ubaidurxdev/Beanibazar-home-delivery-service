@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="#home" className="text-xl font-bold tracking-tight">
-          <Image src={"/bg-remove.png"} width={48} height={48} alt="Logo" />
+          <Image src={"/logo.png"} width={48} height={48} alt="Logo" />
         </Link>
 
         {/* Desktop Nav */}
@@ -70,7 +70,7 @@ export default function Navbar() {
               {/* ✅ Required for accessibility */}
               <SheetTitle className="text-lg font-semibold mb-4">
                 <Image
-                  src={"/bg-remove.png"}
+                  src={"/logo.png"}
                   width={48}
                   height={48}
                   alt="Logo"
