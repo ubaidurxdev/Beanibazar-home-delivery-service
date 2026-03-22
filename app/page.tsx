@@ -1,4 +1,5 @@
 import AboutUs from "@/components/layouts/AboutUs";
+import Footer from "@/components/layouts/Footer";
 import Hero from "@/components/layouts/Hero";
 import Navbar from "@/components/layouts/Navbar";
 import Services from "@/components/layouts/Services";
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero/>
     <AboutUs/>
     <Services/>
+    <Footer/>
     </>
   );
 }

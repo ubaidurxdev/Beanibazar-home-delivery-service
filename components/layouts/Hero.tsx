@@ -42,7 +42,7 @@ const Hero = () => {
           {/* Stats */}
           <div className="mt-10 grid grid-cols-3 gap-6 text-center md:text-left">
             <div>
-              <p className="text-2xl font-bold">100+</p>
+              <p className="text-2xl font-bold">400+</p>
               <p className="text-sm text-gray-500">Deliveries</p>
             </div>
             <div>
@@ -50,7 +50,7 @@ const Hero = () => {
               <p className="text-sm text-gray-500">Avg Time</p>
             </div>
             <div>
-              <p className="text-2xl font-bold">⭐ 4.9</p>
+              <p className="text-2xl font-bold">⭐ 4.8</p>
               <p className="text-sm text-gray-500">Rating</p>
             </div>
           </div>
