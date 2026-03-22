@@ -19,7 +19,7 @@ const Hero = () => {
             Fast Delivery,
             <span className="bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent">
               {" "}
-              Anytime Anywhere
+              Anytime In Beanibazar
             </span>
           </h1>
 
@@ -30,18 +30,12 @@ const Hero = () => {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://wa.me/8801XXXXXXXXX"
+              href="https://wa.me/8801706397147"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Button size="lg" className="px-6">
                 Order via WhatsApp
-              </Button>
-            </a>
-
-            <a href="#services">
-              <Button variant="outline" size="lg" className="px-6">
-                Explore Services
               </Button>
             </a>
           </div>
@@ -67,14 +61,13 @@ const Hero = () => {
         <div className="">
           <div className="relative md:h-[500px] h-[400px] w-full rounded-2xl  overflow-hidden ">
             <Image
-              src="/banner.png"
+              src="/logo.png"
               fill
-              className="object-contain" 
+              className="object-contain"
               alt="Delivery Service"
-              priority 
+              priority
             />
           </div>
-          
         </div>
       </div>
     </section>

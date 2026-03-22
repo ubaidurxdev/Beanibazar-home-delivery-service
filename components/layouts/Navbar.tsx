@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <Button asChild>
             <a
-              href="https://wa.me/8801XXXXXXXXX"
+              href="https://wa.me/8801706397147"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -91,7 +91,7 @@ export default function Navbar() {
 
                 <Button asChild className="mt-4">
                   <a
-                    href="https://wa.me/8801XXXXXXXXX"
+                    href="https://wa.me/880 1706-397147"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
