@@ -6,12 +6,12 @@ const AboutUs = () => {
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         {/* Image */}
-        <div className="rounded-3xl w-full h-full relative overflow-hidden">
+        <div className="relative w-full h-[330px] md:h-[530px] rounded-3xl overflow-hidden">
           <Image
             src="/banner.png"
             fill
             alt="Beanibazar Delivery Service"
-            className=" object-cover"
+            className="object-contain"
           />
         </div>
         {/* Content */}
@@ -42,7 +42,7 @@ const AboutUs = () => {
           </p>
 
           {/* Highlights */}
-          <div className="grid grid-cols-2 gap-">
+          <div className="grid grid-cols-2 gap-6">
             <div className="bg-green-50 p-4 rounded-xl text-center shadow-sm">
               <h3 className="text-xl font-bold text-green-600">Fast</h3>
               <p className="text-sm text-gray-600">Quick delivery service</p>
