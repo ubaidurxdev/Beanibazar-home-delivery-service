@@ -45,8 +45,8 @@ export default function Navbar() {
         </nav>
 
         {/* CTA Button */}
-        <div className="hidden md:block">
-          <Button asChild>
+        <div className="hidden md:block ">
+          <Button asChild className="bg-green-600">
             <a
               href="https://wa.me/8801706397147"
               target="_blank"
@@ -89,7 +89,7 @@ export default function Navbar() {
                   </Link>
                 ))}
 
-                <Button asChild className="mt-4">
+                <Button asChild className="mt-4 bg-green-600">
                   <a
                     href="https://wa.me/880 1706-397147"
                     target="_blank"

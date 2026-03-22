@@ -24,8 +24,7 @@ const Hero = () => {
           </h1>
 
           <p className="mt-5 text-gray-600 text-lg max-w-md">
-            খাবার, গ্রোসারি, পার্সেল — যাই লাগবে, আমরা পৌঁছে দেব দ্রুত এবং
-            নিরাপদে।
+           Get anything you need delivered right to your doorstep — fast, safe, and reliable. Serving Beanibazar with care, so you can save time and enjoy convenience.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -34,7 +33,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" className="px-6">
+              <Button size="lg" className="px-6 bg-green-600">
                 Order via WhatsApp
               </Button>
             </a>
