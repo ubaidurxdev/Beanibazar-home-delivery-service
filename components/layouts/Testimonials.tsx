@@ -31,7 +31,7 @@ const reviews = [
   },
   {
     name: "Jannat Ara",
-    review: "Beanibazar er moddhe best delivery service eta.Very trusted",
+    review: "Beanibazar er moddhe best delivery service eta. Very trusted.",
     rating: 5,
   },
   {
@@ -43,6 +43,32 @@ const reviews = [
     name: "Rafiq Uddin",
     review: "Taratari delivery, kono jhamela nai.",
     rating: 4,
+  },
+
+  {
+    name: "Mim Akter",
+    review: "Order korar por khub fast response paisi, satisfied.",
+    rating: 5,
+  },
+  {
+    name: "Tania Sultana",
+    review: "Friendly behavior, ar service o khub bhalo.",
+    rating: 5,
+  },
+  {
+    name: "Arif Hossain",
+    review: "Emergency teo help paisi, really appreciated.",
+    rating: 5,
+  },
+  {
+    name: "Lamia Islam",
+    review: "Parcel safely deliver hoise, kono issue faisi na.",
+    rating: 5,
+  },
+  {
+    name: "Farhana Rahman",
+    review: "On-time delivery paisi, overall experience bhalo.",
+    rating: 5,
   },
 ];
 
