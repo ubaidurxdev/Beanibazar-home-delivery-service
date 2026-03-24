@@ -17,7 +17,7 @@ const navLinks = [
   { name: "About", href: "#about" },
   { name: "Services", href: "#services" },
   { name: "Reviews", href: "#reviews" },
-  { name: "Contact", href: "#contact" },
+  { name: "FAQ", href: "#faq" },
 ];
 
 export default function Navbar() {
@@ -34,13 +34,13 @@ export default function Navbar() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
-            <Link
+            <a
               key={link.name}
               href={link.href}
               className="text-base font-medium text-gray-700 hover:text-black transition"
             >
               {link.name}
-            </Link>
+            </a>
           ))}
         </nav>
 
@@ -69,24 +69,19 @@ export default function Navbar() {
             <SheetContent side="right" className="p-6">
               {/* ✅ Required for accessibility */}
               <SheetTitle className="text-lg font-semibold mb-4">
-                <Image
-                  src={"/logo.png"}
-                  width={48}
-                  height={48}
-                  alt="Logo"
-                />
+                <Image src={"/logo.png"} width={48} height={48} alt="Logo" />
               </SheetTitle>
 
               <div className="flex flex-col gap-6 mt-4">
                 {navLinks.map((link) => (
-                  <Link
+                  <a
                     key={link.name}
                     href={link.href}
                     onClick={() => setOpen(false)}
                     className="text-lg font-medium"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 ))}
 
                 <Button asChild className="mt-4 bg-green-600">

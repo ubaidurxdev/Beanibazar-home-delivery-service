@@ -4,23 +4,51 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const reviews = [
-  { name: "Ubaidur Rahman", review: "Very fast and reliable service!", rating: 5 },
   {
-    name: "Fatema Begum",
-    review: "Delivered medicine at night. Amazing!",
+    name: "Ubaidur Rahman",
+    review: "Afnar service onek bala lagse, khub taratari delivery faisi.",
     rating: 5,
   },
-  { name: "Karim Uddin", review: "Affordable and trustworthy.", rating: 4 },
-  { name: "Nusrat Jahan", review: "Excellent and polite service.", rating: 5 },
-  { name: "Sabbir Hossain", review: "Very convenient!", rating: 4 },
-  { name: "Jannat Ara", review: "Best in Beanibazar!", rating: 5 },
-  { name: "Imran Khan", review: "Reliable service.", rating: 5 },
-  { name: "Rafiq Uddin", review: "Fast delivery!", rating: 4 },
+  {
+    name: "Fatema Begum",
+    review: "Raite o medicine diya gese, khub upokar hoise amar.",
+    rating: 5,
+  },
+  {
+    name: "Karim Uddin",
+    review: "Dam kom, service o bhalo. Bhorosha kora jay.",
+    rating: 4,
+  },
+  {
+    name: "Nusrat Jahan",
+    review: "Bebohar onek bala lagse, delivery o fast asil.",
+    rating: 5,
+  },
+  {
+    name: "Sabbir Hossain",
+    review: "Onek shubidha hoise, barite boshei shob paisi.",
+    rating: 5,
+  },
+  {
+    name: "Jannat Ara",
+    review: "Beanibazar er moddhe best delivery service eta.Very trusted",
+    rating: 5,
+  },
+  {
+    name: "Imran Khan",
+    review: "Khub reliable, jeta saisi shobta faisi.",
+    rating: 5,
+  },
+  {
+    name: "Rafiq Uddin",
+    review: "Taratari delivery, kono jhamela nai.",
+    rating: 4,
+  },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section id="reviews" className="py-20  scroll-mt-16 bg-gray-50">
       {/* Heading */}
       <div className="max-w-7xl mx-auto px-6 text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -42,7 +70,7 @@ const Testimonials = () => {
           className="flex gap-6"
           animate={{ x: ["0%", "-50%"] }}
           transition={{
-            duration: 25,
+            duration: 13,
             ease: "linear",
             repeat: Infinity,
           }}
@@ -57,13 +85,13 @@ const Testimonials = () => {
                 {[...Array(item.rating)].map((_, i) => (
                   <Star
                     key={i}
-                    className="w-4 h-4 text-green-500 fill-green-500"
+                    className="w-4 h-4 text-yellow-500 fill-yellow-500"
                   />
                 ))}
               </div>
 
               {/* Review */}
-              <p className="text-gray-600 text-sm mb-5 leading-relaxed">
+              <p className="text-gray-600 text-lg mb-5 leading-relaxed">
                 “{item.review}”
               </p>
 

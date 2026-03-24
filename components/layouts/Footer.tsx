@@ -28,7 +28,7 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3 text-gray-600 text-[15">
               <li>
-                <a href="#about" className="hover:text-green-600 transition">
+                <a href="#home" className="hover:text-green-600 transition">
                   Home
                 </a>
               </li>
@@ -43,8 +43,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-green-600 transition">
-                  Contact
+                <a href="#faq" className="hover:text-green-600 transition">
+                  FAQ
                 </a>
               </li>
             </ul>
@@ -58,7 +58,7 @@ const Footer = () => {
 
             <div className="space-y-4 text-[15px] text-gray-600">
               <a
-                href="tel:+880XXXXXXXXXX"
+                href="tel:+8801706397147"
                 className="flex items-center gap-2 hover:text-green-600 transition"
               >
                 <Phone className="w-4 h-4" />
