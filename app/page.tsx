@@ -1,4 +1,5 @@
 import AboutUs from "@/components/layouts/AboutUs";
+import FAQ from "@/components/layouts/Faq";
 import Footer from "@/components/layouts/Footer";
 import Hero from "@/components/layouts/Hero";
 import Navbar from "@/components/layouts/Navbar";
@@ -13,6 +14,7 @@ export default function Home() {
     <AboutUs/>
     <Services/>
     <Testimonials/>
+    <FAQ/>
     <Footer/>
     </>
   );

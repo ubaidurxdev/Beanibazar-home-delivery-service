@@ -4,8 +4,12 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const reviews = [
-  { name: "Rahim Ahmed", review: "Very fast and reliable service!", rating: 5 },
-  { name: "Fatema Begum", review: "Delivered medicine at night. Amazing!", rating: 5 },
+  { name: "Ubaidur Rahman", review: "Very fast and reliable service!", rating: 5 },
+  {
+    name: "Fatema Begum",
+    review: "Delivered medicine at night. Amazing!",
+    rating: 5,
+  },
   { name: "Karim Uddin", review: "Affordable and trustworthy.", rating: 4 },
   { name: "Nusrat Jahan", review: "Excellent and polite service.", rating: 5 },
   { name: "Sabbir Hossain", review: "Very convenient!", rating: 4 },
@@ -17,20 +21,16 @@ const reviews = [
 const Testimonials = () => {
   return (
     <section className="py-20 bg-gray-50">
-      
       {/* Heading */}
       <div className="max-w-7xl mx-auto px-6 text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           What Our Customers Say
         </h2>
-        <p className="text-gray-500">
-          Real feedback from our happy customers
-        </p>
+        <p className="text-gray-500">Real feedback from our happy customers</p>
       </div>
 
       {/* Slider + Fade Container */}
       <div className="relative max-w-7xl mx-auto px-6 overflow-hidden">
-
         {/* Left Fade */}
         <div className="pointer-events-none absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-gray-50 via-gray-50/80 to-transparent z-10" />
 
@@ -77,15 +77,12 @@ const Testimonials = () => {
                   <p className="text-gray-800 text-sm font-medium">
                     {item.name}
                   </p>
-                  <p className="text-gray-400 text-xs">
-                    Verified Customer
-                  </p>
+                  <p className="text-gray-400 text-xs">Verified Customer</p>
                 </div>
               </div>
             </div>
           ))}
         </motion.div>
-
       </div>
     </section>
   );
