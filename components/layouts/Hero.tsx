@@ -17,7 +17,7 @@ const Hero = () => {
         <div>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
             Fast Delivery,
-            <span className="bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent">
+            <span className="text-green-600">
               {" "}
               Anytime In Beanibazar
             </span>

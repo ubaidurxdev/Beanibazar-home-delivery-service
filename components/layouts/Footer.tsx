@@ -5,17 +5,17 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-gray-50 border-t border-gray-200">
-      <div className="max-w-6xl mx-auto px-6 py-12">
+      <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
             <Link href="#home" className="text-xl font-bold tracking-tight">
               <Image src={"/logo.png"} width={48} height={48} alt="Logo" />
             </Link>
-            <h2 className="text-xl font-bold text-gray-800 mb-3 mt-1">
+            <h2 className="text-xl font-bold text-gray-800 mb-3 mt-2">
               Beanibazar Home Delivery Service
             </h2>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 text-[15px] leading-relaxed">
               Fast, reliable, and trusted delivery service in Beanibazar. We
               deliver your daily needs with care and responsibility.
             </p>
@@ -56,7 +56,7 @@ const Footer = () => {
               Contact
             </h3>
 
-            <div className="space-y-3 text-sm text-gray-600">
+            <div className="space-y-4 text-[15px] text-gray-600">
               <a
                 href="tel:+880XXXXXXXXXX"
                 className="flex items-center gap-2 hover:text-green-600 transition"

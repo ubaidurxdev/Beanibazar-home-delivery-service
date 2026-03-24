@@ -1,4 +1,11 @@
-import { Bike, Pill, ShoppingCart, Package, Clock, FileText } from "lucide-react";
+import {
+  Bike,
+  Pill,
+  ShoppingCart,
+  Package,
+  Clock,
+  FileText,
+} from "lucide-react";
 
 const services = [
   {
@@ -29,22 +36,22 @@ const services = [
   {
     title: "Document Delivery",
     description: "Safe and fast delivery of important papers and documents.",
-    icon: FileText, 
+    icon: FileText,
   },
 ];
 
 const Services = () => {
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
-        
+      <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Our Services
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
-            We provide a wide range of delivery services to make your life easier and more convenient.
+            We provide a wide range of delivery services to make your life
+            easier and more convenient.
           </p>
         </div>
 

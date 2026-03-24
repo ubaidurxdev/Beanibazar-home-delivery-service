@@ -4,7 +4,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         {/* Image */}
         <div className="relative w-full h-[330px] md:h-[530px] rounded-3xl overflow-hidden">
           <Image
