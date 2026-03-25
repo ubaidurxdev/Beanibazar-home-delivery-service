@@ -78,7 +78,7 @@ const Testimonials = () => {
     controls.start({
       x: "-50%",
       transition: {
-        duration: 20,
+        duration: 5,
         ease: "linear",
         repeat: Infinity,
       },
@@ -108,7 +108,7 @@ const Testimonials = () => {
             controls.start({
               x: "-50%",
               transition: {
-                duration: 8,
+                duration: 5,
                 ease: "linear",
                 repeat: Infinity,
               },

@@ -5,6 +5,7 @@ import Hero from "@/components/layouts/Hero";
 import Navbar from "@/components/layouts/Navbar";
 import Services from "@/components/layouts/Services";
 import Testimonials from "@/components/layouts/Testimonials";
+import DeveloperBadge from "@/components/layouts/Toast";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <Services/>
     <Testimonials/>
     <FAQ/>
+    <DeveloperBadge/>
     <Footer/>
     </>
   );
